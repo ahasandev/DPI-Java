@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:rotation="360"
+    android:rotationX="360"
+    android:rotationY="360"
+    tools:context=".SplashScreen"
+    >
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="300dp"
+        android:layout_height="600dp"
+        android:layout_centerInParent="true"
+        android:alpha="0.8"
+        android:visibility="visible"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/book" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        >
+
+
+
+
+    <ImageView
+        android:id="@+id/dpilogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/dpilogos" />
+
+    <ImageView
+        android:id="@+id/textlogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/textdpilogo"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="45dp"
+
+        />
+
+    </LinearLayout>
+
+</RelativeLayout>

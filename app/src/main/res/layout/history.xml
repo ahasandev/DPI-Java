@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <soup.neumorphism.NeumorphTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#609513"
+            android:paddingLeft="10dp"
+            android:text="History"
+            android:textSize="25dp" />
+       <TextView
+           android:id="@+id/texths"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp"
+           android:textSize="21dp"
+           android:textStyle="bold"
+           android:lineHeight="30dp"
+           android:ellipsize="end"
+           android:text="DINAJPUR Polytechnic institute a largest and reputed Government polytechnic institute in Bangladesh which was established in 1964.This polytechnic has controlled by the Government of Bangladesh and under the Bangladesh Technical Education Board (BTEB).
+
+
+                         DINAJPUR Polytechnic institute is One of the Biggest Polytechnic Institute in Bangladesh. there are Three hostels two for boys and One for girls. A big play ground and also has facilities for indoor games. DINAJPUR Polytechnic institute (DPI) provide 4 years Diploma in Engineering Course under the (BTEB) as maintaining International Standard."
+           />
+        <soup.neumorphism.NeumorphTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#609513"
+            android:paddingLeft="10dp"
+            android:text="Mission Vision"
+            android:textSize="25dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:lineHeight="30dp"
+            android:ellipsize="end"
+            android:text="Contemporary sustainable technical vocational Education and Training, Human Resource Development, Employment, Changing life style. Industrial expansion and national economic grouth.
+                            Execute the principals and action of works to ensure the standardized Diploma Engineering Educational and basic trade course Training."
+            />
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
